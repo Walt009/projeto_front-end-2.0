@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Painel de Tickets - Poli Acessível</title>
+    <link rel="stylesheet" href="css/painel.css">
+</head>
+<body>
+    <header>
+        <h1>Painel de Tickets</h1>
+        <nav>
+            <ul>
+                <li><a href="criar-ticket.html">Criar Ticket</a></li>
+                <li><a href="index.html">Sair</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="ticket-list">
+        <h2>Meus Tickets</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Título</th>
+                    <th>Status</th>
+                    <th>Ações</th>
+                </tr>
+            </thead>
+            <tbody id="ticketTableBody">
+                <!-- Tickets serão inseridos aqui dinamicamente -->
+            </tbody>
+        </table>
+    </section>
+</body>
+</html>

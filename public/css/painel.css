@@ -1,0 +1,55 @@
+/* Estilo do painel de tickets */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+}
+
+header {
+    background-color: #0044cc;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.ticket-list {
+    width: 80%;
+    margin: 50px auto;
+    text-align: center;
+}
+
+.ticket-list table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.ticket-list table, .ticket-list th, .ticket-list td {
+    border: 1px solid #ddd;
+    padding: 12px;
+}
+
+.ticket-list th {
+    background-color: #0044cc;
+    color: white;
+}
+
+.ticket-list td {
+    text-align: center;
+}

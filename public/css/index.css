@@ -1,0 +1,56 @@
+/* Estilo da página inicial */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    color: #333;
+}
+
+header {
+    background-color: #0044cc;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hero {
+    background-color: #0066ff;
+    color: white;
+    padding: 100px 20px;
+    text-align: center;
+}
+
+.btn-primary {
+    background-color: #28a745;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+footer {
+    background-color: #0044cc;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}

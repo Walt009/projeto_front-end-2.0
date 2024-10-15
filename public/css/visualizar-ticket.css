@@ -1,0 +1,48 @@
+/* Estilo da página de visualização de ticket */
+body {
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+}
+
+.visualizar-ticket-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.visualizar-ticket-box {
+    background-color: white;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 600px;
+}
+
+.visualizar-ticket-box h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.ticket-info p {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.ticket-info button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.ticket-info button:hover {
+    background-color: #0056b3;
+}

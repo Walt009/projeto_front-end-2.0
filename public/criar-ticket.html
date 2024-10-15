@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Criar Ticket - Poli Acessível</title>
+    <link rel="stylesheet" href="css/criar-ticket.css">
+</head>
+<body>
+    <div class="criar-ticket-container">
+        <div class="criar-ticket-box">
+            <h1>Criar Ticket</h1>
+            <form id="criarTicketForm">
+                <label for="titulo">Título do Ticket:</label>
+                <input type="text" id="titulo" placeholder="Descreva o problema" required>
+
+                <label for="descricao">Descrição:</label>
+                <textarea id="descricao" rows="5" placeholder="Descreva detalhadamente o problema" required></textarea>
+
+                <label for="categoria">Categoria:</label>
+                <select id="categoria" required>
+                    <option value="" disabled selected>Selecione uma categoria</option>
+                    <option value="acessibilidade">Acessibilidade</option>
+                    <option value="infraestrutura">Infraestrutura</option>
+                    <option value="outros">Outros</option>
+                </select>
+
+                <button type="submit">Criar Ticket</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
